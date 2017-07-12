@@ -1,6 +1,15 @@
-.my-background{
-    background-image: url("../images/DE4JMA.jpg");
+body{
+    background-image: url("../images/main-page-bg.jpg");
     font-family: Garamond;
+}
+
+.cover-photo{
+    background-image: url("../images/Tehran.jpg");
+    font-family: Garamond;
+    color: white;
+    background-repeat: repeat-x;
+    background-size: cover;
+    border: hidden;
 }
 
 html{

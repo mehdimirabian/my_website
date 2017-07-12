@@ -2,20 +2,21 @@
 {{extend 'layout.html'}}
 
 
-<body class="my-background">
-    {{block header}}
-        <header class="background">
-          <div>
-            {{if response.title:}}
-            <h1 style="font-size: 80px">Mehdi Mirabian
-              <small>{{=response.subtitle or ''}}</small></h1>
-            <div>
-                <img src="mehdi_mirabian/static/images/grad.jpg" alt="Mountain View" style="width:304px;height:400px;">
-            </div>
-            {{pass}}
-          </div>
-        </header>
-    {{end}}
+<div>
+
+    <header class="cover-photo">
+      <div>
+        {{if response.title:}}
+        <h1 style="font-size: 80px">Mehdi Mirabian
+          <small>{{=response.subtitle or ''}}</small></h1>
+        {{pass}}
+      </div>
+    <div>
+        <img src="mehdi_mirabian/static/images/grad.jpg" alt="graduation" style="width:304px;height:400px;">
+    </div>
+    </header>
+
+
 
     <div class="page-heading">
         <p>
@@ -23,7 +24,24 @@
         </p>
     </div>
 
+    <div>
+        <button style="float: right">
+            mehdi
+        </button>
 
-</body>
+
+        <button style="float: right">
+            saghar
+        </button>
+
+
+
+        <button style="float: right">
+            homa
+        </button>
+
+    </div>
+
+</div>
 
 
