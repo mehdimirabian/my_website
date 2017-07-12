@@ -1,0 +1,19 @@
+
+{{extend 'layout.html'}}
+
+{{block header}}
+    <header class="container-fluid background">
+      <div class="jumbotron">
+        {{if response.title:}}
+        <h1>Mehdi Mirabian
+          <small>{{=response.subtitle or ''}}</small></h1>
+        {{pass}}
+      </div>
+    </header>
+{{end}}
+
+{{block image}}
+<img src="mehdi_mirabian/static/images/grad.jpg" alt="Mountain View" style="width:304px;height:400px;">
+{{end}}
+
+
