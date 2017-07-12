@@ -1,19 +1,35 @@
 
 {{extend 'layout.html'}}
 
-{{block header}}
-    <header class="container-fluid background">
-      <div class="jumbotron">
-        {{if response.title:}}
-        <h1>Mehdi Mirabian
-          <small>{{=response.subtitle or ''}}</small></h1>
-        {{pass}}
-      </div>
-    </header>
-{{end}}
 
-{{block image}}
-<img src="mehdi_mirabian/static/images/grad.jpg" alt="Mountain View" style="width:304px;height:400px;">
-{{end}}
+<body class="my-background">
+    {{block header}}
+        <header class="background">
+          <div class="jumbotron">
+            {{if response.title:}}
+            <h1>Mehdi Mirabian
+              <small>{{=response.subtitle or ''}}</small></h1>
+            <div>
+                <img src="mehdi_mirabian/static/images/grad.jpg" alt="Mountain View" style="width:304px;height:400px;">
+            </div>
+            {{pass}}
+          </div>
+        </header>
+    {{end}}
+
+    <div style="font-size: x-large">
+        <p>
+            hi<br>
+            how are you<br>
+            im good thanks<br>
+            arsenal<br>
+            iran<br>
+            saghar<br>
+            mehdi<br>
+            homa<br>
+        </p>
+    </div>
+
+</body>
 
 
