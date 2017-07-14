@@ -1,6 +1,7 @@
 body{
     background-image: url("../images/main-page-bg.jpg");
     font-family: Garamond;
+
 }
 
 .cover-photo{
@@ -22,4 +23,22 @@ html{
     color: black;
     text-align: center;
     position: absolute;
+    display: block;
+    position: static;
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.button-div{
+    display: block;
+    font-family: "Arial Black";
+    clear: both;
+    position: absolute;
+    text-align: center;
+    float: left;
+}
+
+.my-button{
+    background-color: white;
+
 }
