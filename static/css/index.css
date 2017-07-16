@@ -65,6 +65,7 @@ html{
     border-style: solid;
     background-color: floralwhite;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 h1.super-large{
