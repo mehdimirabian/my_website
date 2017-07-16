@@ -4,7 +4,10 @@ body.main-page{
 
 }
 
-
+body.engineer-page{
+     background-image: url("../images/tech.jpg");
+    font-family: Garamond;
+}
 
 .cover-photo{
     background-image: url("../images/Tehran.jpg");
@@ -53,3 +56,21 @@ html{
     border-radius: 7px;
     border-style: outset;
 }
+
+.engineer-boxes{
+    display: block;
+    border: thick;
+    border-color: #0a001f;
+    border-style: solid;
+    background-color: floralwhite;
+    margin-bottom: 20px;
+}
+
+h1.super-large{
+    font-size: 45px;
+}
+
+h2.engineering-rows{
+    text-decoration: underline;
+}
+
