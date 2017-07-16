@@ -20,6 +20,10 @@ def index():
     response.flash = T("Hello World")
     return dict(message=T('Welcome to web2py!'))
 
+def engineer():
+    response.flash = T("Mehdi The engineer")
+    return dict(message=T('engineer'))
+
 
 def user():
     """
