@@ -1,8 +1,10 @@
-body{
+body.main-page{
     background-image: url("../images/main-page-bg.jpg");
     font-family: Garamond;
 
 }
+
+
 
 .cover-photo{
     background-image: url("../images/Tehran.jpg");
