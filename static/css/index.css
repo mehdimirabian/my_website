@@ -5,8 +5,9 @@ body.main-page{
 }
 
 body.engineer-page{
-     background-image: url("../images/tech.jpg");
+    background-image: url("../images/tech.jpg");
     font-family: Garamond;
+    background-size: contain;
 }
 
 .cover-photo{
@@ -71,6 +72,10 @@ h1.super-large{
 }
 
 h2.engineering-rows{
-    text-decoration: underline;
+    border-bottom: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 12px;
+    align-text: right;
 }
 
