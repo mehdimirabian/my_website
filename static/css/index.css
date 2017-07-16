@@ -69,13 +69,26 @@ html{
 
 h1.super-large{
     font-size: 45px;
+    font-weight: bold;
 }
 
-h2.engineering-rows{
+.engineering-rows{
     border-bottom: solid;
     border-color: black;
     border-width: 1px;
     margin-bottom: 12px;
     align-text: right;
+    overflow: hidden;
+}
+
+.left-h{
+    float: left;
+    font-weight: bold;
+}
+
+.right-h{
+    float: right;
+    font-size: x-large;
+    font-style: oblique;
 }
 
