@@ -24,6 +24,22 @@ html{
     overflow-x: scroll;
 }
 
+
+button.home-link{
+    background-image: url("../images/home.png");
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    position: static;
+    border-radius: 7px;
+    border-style: outset;
+
+}
 .page-heading{
     font-family: Garamond;
     font-size: 75px;
