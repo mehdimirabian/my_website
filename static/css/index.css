@@ -60,13 +60,16 @@ html{
 
 .engineer-boxes{
     display: block;
-    border: thick;
+    border: thin;
     border-color: #0a001f;
     border-style: solid;
     background-color: floralwhite;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
+    padding: 25px;
     overflow: hidden;
 }
+
+
 
 h1.super-large{
     font-size: 45px;
