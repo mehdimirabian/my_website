@@ -24,6 +24,10 @@ def engineer():
     response.flash = T("Mehdi The engineer")
     return dict(message=T('engineer'))
 
+def poet():
+    response.flash = T("Mehdi Poet")
+    return dict(message=T('engineer'))
+
 
 def user():
     """
