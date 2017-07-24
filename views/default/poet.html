@@ -2,11 +2,10 @@
 {{extend 'layout.html'}}
 
 
-<body>
+<body class="desk">
 
-    mehdi mirabian
 
-    <div id="flipbook">
+    <div id="flipbook" class="book-paper">
         <div class="hard"> Turn.js </div>
         <div class="hard"></div>
         <div> Page 1 </div>
@@ -18,9 +17,9 @@
     </div>
     <script type="text/javascript">
         $("#flipbook").turn({
-            width: 400,
-            height: 300,
-            autoCenter: true
+            width: 800,
+            height: 600,
+           // autoCenter: true
         });
     </script>
 
