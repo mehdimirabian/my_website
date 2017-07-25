@@ -96,8 +96,8 @@ button.home-link{
 
 
 
-h1.super-large{
-    font-size: 45px;
+.super-large{
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -113,12 +113,13 @@ h1.super-large{
 
 .left-h{
     float: left;
+    font-size: x-large;
     font-weight: bold;
 }
 
 .right-h{
     float: right;
-    font-size: x-large;
+    font-size: medium;
     font-style: oblique;
 }
 
