@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     position: static;
     padding: 10px;
-    dir: rtl;
     allign: right;
 }
 
@@ -20,4 +19,19 @@
     background-image: url("../images/desk.png");
     background-size: contain;
     background-repeat: repeat-x;
+}
+
+button.poet-to-home{
+    background-image: url("../images/poet-home.png");
+    background-color: #bbaa77;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    position: static;
+    border-radius: 7px;
+    border-style: outset;
+
 }
