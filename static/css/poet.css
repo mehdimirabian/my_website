@@ -8,6 +8,14 @@
     allign: right;
 }
 
+.book-cover{
+    background-color: #424242;
+    border-color: #34302f;
+    border: solid;
+    border-width: 15px;
+    margin: 0 auto;
+}
+
 .desk{
     background-image: url("../images/desk.png");
     background-size: contain;
