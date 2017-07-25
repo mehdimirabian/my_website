@@ -26,7 +26,11 @@ def engineer():
 
 def poet():
     response.flash = T("Mehdi Poet")
-    return dict(message=T('engineer'))
+    return dict(message=T('poet'))
+
+def soccer():
+    response.flash = T("Mehdi The Soccer Player")
+    return dict(message=T('soccer'))
 
 
 def user():
